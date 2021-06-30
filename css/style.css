@@ -76,6 +76,7 @@ button {
     width: 80%;
     height: 100%;
     margin: auto;
+    border: 4px solid red;
 }
 
 .row {
@@ -183,4 +184,20 @@ header nav li a {
     background-image: url('../images/stars.svg');
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+/* Footer */
+footer {
+    background-color: #23272A;
+    color: white;
+}
+
+footer .box {
+    border: 2px solid green;
+    width: calc(100% / 6);
+    padding: 20px;
+}
+
+footer li {
+    list-style: none;
 }
