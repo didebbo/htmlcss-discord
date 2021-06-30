@@ -36,6 +36,7 @@
 .h-mg-20 {margin: 0 20px;}
 .v-mg-20 {margin: 20px 0;}
 .v-mg-40 {margin: 40px 0;}
+.v-mg-80 {margin: 80px 0;}
 
 /* Float */
 .fl-left {float: left;}
@@ -48,6 +49,11 @@
 }
 .btn.bg-black {
     background-color: #000;
+    color: #fff;
+}
+
+.btn.bg-lilla {
+    background-color: #8EA1E1;
     color: #fff;
 }
 
@@ -75,15 +81,20 @@ button {
 .row {
     width: 100%;
     height: 100%;
-    border: 2px solid red;
+    /* border: 4px solid red; */
 }
 
-.col {height: 100%; border: 2px solid green;}
+.col {
+    position: relative;
+    height: 100%;
+    /* border: 4px solid green; */
+}
 
 .btn {
     padding: 10px 20px;
     border: 0 solid;
     border-radius: 20px;
+    font-weight: bold;
 }
 
 /* Header */
@@ -106,14 +117,13 @@ header nav li a {
     text-decoration: none;
     color: #fff;
     line-height: 50px;
-    margin: 20px;
+    margin: 1vw;
 }
 
 #btn-logIn {
     position: absolute;
     top: 50%;
     transform: translate(0,-50%);
-    font-weight: bold;
 } 
 
 /* Main */
@@ -133,7 +143,7 @@ header nav li a {
 
 .banner .box-centered {
     position: absolute;
-    width: 50%;
+    width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -141,7 +151,11 @@ header nav li a {
 
 .banner .title {font-size: 2rem;}
 
-.banner .description {font-size: 0.9rem;}
+.banner .description {
+    font-size: 0.9rem;
+    width: 70%;
+    margin: 40px auto;
+}
 
 /* Section 1 - 3 */
 
@@ -169,4 +183,4 @@ header nav li a {
     background-image: url('../images/stars.svg');
     background-size: contain;
     background-repeat: no-repeat;
-} 
+}
