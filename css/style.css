@@ -39,6 +39,16 @@
     color: #fff;
 }
 
+/* Color Sections */
+.sctn.bg-white {
+    background-color: #fff;
+}
+
+.sctn.bg-light-grey {
+    background-color: lightgray;
+}
+
+
 /* Common */
 body {
     background-color: gray;
@@ -156,22 +166,22 @@ main {
 
 /* Section 1 */
 
-.sctn-1 {
+.sctn {
     padding: 40px;
     /* border: 2px solid blue; */
     background-color: #fff;
 }
 
-.sctn-1 .container {
+.sctn .container {
     position: relative;
     /* border: 2px solid red; */
 }
 
-.sctn-1 .row {
+.sctn .row {
     width: 100%;
     /* border: 2px solid green; */
 }
 
-.sctn-1 .row .col img {
+.sctn .row .col img {
     width: 100%;
 }
