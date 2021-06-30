@@ -1,0 +1,18 @@
+/* Reset */
+* {
+    mrgin: 0;
+    pdin: 0;
+    box-sizing: border-box;
+}
+
+/* Clearfix */
+.clearfix {
+    display: table;
+    content: "";
+    clear: both;
+} 
+
+/* Common */
+body {
+    background-color: black;
+}
