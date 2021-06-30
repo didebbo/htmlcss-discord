@@ -27,6 +27,10 @@
     background-color: #fff;
     color: #000;
 }
+.btn.bg-black {
+    background-color: #000;
+    color: #fff;
+}
 
 /* Common */
 body {
@@ -59,7 +63,7 @@ button {
 }
 
 .btn {
-    padding: 10px;
+    padding: 10px 20px;
     border: 0 solid;
     border-radius: 20px;
 }
@@ -98,3 +102,46 @@ header nav li a {
     font-weight: bold;
 } 
 
+/* Main */
+
+main {
+    /* border: 2px solid red; */
+}
+
+.banner {
+    /* border: 2px solid yellow; */
+    background-image: url('../images/jumbo.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    height: 50vh;
+}
+
+.banner .container {
+    position: relative;
+    /* border: 2px solid rgb(138, 128, 115); */
+}
+
+.banner .box-centered {
+    position: absolute;
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.banner .title {
+    font-size: 2rem;
+}
+
+.banner .description {
+    font-size: 0.9rem;
+    margin: 20px 0;
+}
+
+.banner .buttons .btn {
+    margin: 0 10px;
+}
