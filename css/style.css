@@ -1,3 +1,6 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 /* Reset */
 * {
     margin: 0;
@@ -19,9 +22,20 @@
 .fl-left {float: left;}
 .fl-right {float: right;}
 
+/* Buttons Colors */
+.btn.bg-white {
+    background-color: #fff;
+    color: #000;
+}
+
 /* Common */
 body {
     background-color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -44,15 +58,24 @@ body {
     height: 100%;
 }
 
-.logo {
-    width: 100%;
-    height: 100%;
+.btn {
+    padding: 10px;
+    border: 0 solid;
+    border-radius: 20px;
 }
+
+/* Header */
 
 header {
     background-color: #2A5EE8;
     height: 50px;
 }
+
+header .logo {
+    width: 100%;
+    height: 100%;
+}
+
 header nav {
     text-align: center;
 }
@@ -65,11 +88,13 @@ header nav li a {
     text-decoration: none;
     color: #fff;
     line-height: 50px;
+    margin: 20px;
 }
 
 #btn-logIn {
     position: absolute;
     top: 50%;
     transform: translate(0,-50%);
+    font-weight: bold;
 } 
 
