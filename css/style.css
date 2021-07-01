@@ -61,11 +61,26 @@
 
 /* Color Sections */
 .sctn.bg-white {background-color: #fff;}
-.sctn.bg-light-grey {background-color: lightgray;}
+.sctn.bg-light-grey {background-color: #E6E6E6;}
+
+/* Wave */
+
+.wave {
+    height: 100px;
+    /* background-color: red; */
+    background-image: url('../images/wave.svg');
+    background-size: cover;
+    /* border-radius: 0 50% 50% 0; */
+    opacity: 0.1;
+}
+
+.wave.wave-invert {
+    transform: rotate(180deg);
+}
 
 /* Common */
 body {
-    background-color: gray;
+    /* background-color: #D3D3D3; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -79,7 +94,7 @@ button {
     max-width: 80%;
     height: 100%;
     margin: auto;
-    border: 4px solid red;
+    /* border: 4px solid red; */
 }
 
 .row {
@@ -194,7 +209,7 @@ header nav li a {
 footer {
     background-color: #23272A;
     color: white;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 
 footer .container {
@@ -202,7 +217,7 @@ footer .container {
 }
 
 footer .col {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     padding: 20px;
 }
 
