@@ -206,7 +206,8 @@ main section {
     background-color: #fff;
 }
 
-.section-2 {
+.section-2,
+.section-4 {
     background-color: #E6E6E6;
 }
 
@@ -216,8 +217,30 @@ main section {
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: space-around;
     max-width: 1200px;
     margin: auto;
+}
+
+.section-1 .col,
+.section-2 .col,
+.section-3 .col {
+    width: 40%;
+}
+
+.section-1 .col img,
+.section-2 .col img,
+.section-3 .col img {
+    width: 100%;
+}
+
+.section-4 ._container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
 }
 
 .section-1 h2,
