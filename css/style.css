@@ -9,6 +9,10 @@ img {
     width: 100%;
 }
 
+a, .btn {
+    cursor: pointer;
+}
+
 /* Buttons Colors */
 .btn.bg-white {
     background-color: #fff;
